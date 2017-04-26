@@ -2,7 +2,7 @@
 * @Author: suifengtec
 * @Date:   2017-04-26 23:41:52
 * @Last Modified by:   suifengtec
-* @Last Modified time: 2017-04-26 23:43:25
+* @Last Modified time: 2017-04-26 23:55:06
 */
 ;!function (e) {
     function o(s) {
@@ -31,8 +31,9 @@
             var t = "温馨提示：请不要调皮地在此粘贴执行任何内容，这可能会导致您的账户受到攻击，给您带来损失 ！^_^",
                 s = "做中国最具互联网性、创新性、专业有爱的CG教育团队。",
                 n = "http://www.aboutcg.com/",
+                cl = '#968D7B',
                 i = [s, " ", n].join("");
-            /msie/gi.test(navigator.userAgent) ? (console.info(t), console.info(i)) : (console.info('友情提示:'),console.log("%c aboutCG %c Copyright \xa9 2015-%s", 'font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:64px;color:#4F71CB;-webkit-text-fill-color:#4F71CB;-webkit-text-stroke: 1px #4F71CB;', "font-size:12px;color:#999999;", (new Date).getFullYear()), console.log("%c " + t, "color:#333;font-size:16px;"), console.log("\n " + i)), window.__has_console_security_message = !0
+            /msie/gi.test(navigator.userAgent) ? (console.info(t), console.info(i)) : (console.info('友情提示:'),console.log("%c aboutCG %c Copyright \xa9 2015-%s", 'font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:64px;color:'+ cl+';-webkit-text-fill-color:'+ cl+';-webkit-text-stroke: 1px '+ cl+';', "font-size:12px;color:#999999;", (new Date).getFullYear()), console.log("%c " + t, "color:#333;font-size:16px;"), console.log("\n " + i)), window.__has_console_security_message = !0
         }
     }()
 }]);
